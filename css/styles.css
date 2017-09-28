@@ -8,28 +8,28 @@
   clear:both;
 }
 
-#cell1, #cell2, #cell3 {
+#one, #two, #three {
   width:150px;
   height:150px;
   border:3px solid black;
   float: left;
 }
 
-#cell4, #cell5, #cell6 {
+#four, #five, #six {
   width:150px;
   height:150px;
   float: left;
   border:3px solid black;
 }
 
-#cell7, #cell8, #cell9 {
+#seven, #eight, #nine {
   width:150px;
   height:150px;
   float: left;
   border:3px solid black;
 }
 
-#cell1:hover, #cell2:hover, #cell3:hover, #cell4:hover, #cell5:hover, #cell6:hover, #cell7:hover, #cell8:hover, #cell9:hover {
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover {
   background-color: #0081D4;
 }
 
