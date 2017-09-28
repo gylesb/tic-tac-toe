@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1>Welcome to Daniel and Gyles' game of Tic-Tac-Toe</h1>
+    </div>
+    <div class="container">
+      <div class="well">
+        <h2>In case you don't know how to play, here are some rules:</h2>
+        <ul>
+          <li>Choose to play against either another player or the computer.</li>
+          <li>Player One places an "X" on one of the 9 squares by clicking on the corresponding square</li>
+          <li>Player Two places an "O" on one of the 9 squares by clicking on the corresponding square</li>
+          <li>You cannot hit the same square more than once per game</li>
+          <li>First player to get three in a row wins!</li>
+        </ul>
+        <div id="congratulations">
+          <div id="playerOneWin">
+            <h1>Congratulations</h1>
+            <h1 id="playerOneCongrats"></h1>
+          </div>
+          <div id="playerTwoWin">
+            <h1>Congratulations</h1>
+            <h1 id="playerTwoCongrats"></h1>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button type="button" name="btnPVP" class="btn btn-primary" id="pvp">Play against another person</button>
+        <button type="button" name="btnPvBOT" class="btn btn-primary" id="pvbot">Play against the computer</button>
+      </div>
+      <br>
+      <div class="wrapper">
+        <div class="row1" id="row1">
+          <div class="cell" id="cell1"></div>
+          <div class="cell" id="cell2"></div>
+          <div class="cell" id="cell3"></div>
+        </div>
+        <div class="row2" id="row2">
+          <div class="cell" id="cell4"></div>
+          <div class="cell" id="cell5"></div>
+          <div class="cell" id="cell6"></div>
+        </div>
+        <div class="row3" id="row3">
+          <div class="cell" id="cell7"></div>
+          <div class="cell" id="cell8"></div>
+          <div class="cell" id="cell9"> </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="playerOne">
+            <h1>Player 1:</h1>
+            <h1 id="x">X</h1>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="playerTwo">
+            <h1>Player 2:</h1>
+            <h1 id="o">O</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
